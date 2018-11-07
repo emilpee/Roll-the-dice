@@ -1,0 +1,9 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    padding-left: 1.5%;
+    text-transform: uppercase;
+}
