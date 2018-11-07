@@ -1,36 +1,31 @@
 #diceOne, #diceTwo, #diceThree, #diceFour, #diceFive, #diceSix {
     background-image: url('images/dices1.png');
+    background-repeat: no-repeat;
     height: 330px;
     width: 330px;
 }
 
 #diceOne {
-    background-image: url('images/dices1.png');
     background-position: -35px 0;
 }
 
 #diceTwo {
-    background-image: url('images/dices1.png');
     background-position: -362px 0;
 }
 
 #diceThree {
-    background-image: url('images/dices1.png');
     background-position: -35px -343px;
 }
 
 #diceFour {
-    background-image: url('images/dices1.png');
     background-position: -362px -343px;
 }
 
 #diceFive {
-    background-image: url('images/dices1.png');
     background-position: -35px -713px;
 }
 
 #diceSix {
-    background-image: url('images/dices1.png');
     background-position: -362px -713px;
 }
 
@@ -38,8 +33,23 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
+section {
+    float: left;
+    width: 30%;
+    font-size: 56px;
+    border-right: 2px dashed tomato;
+    padding-left: 1.2%;
+    text-transform: uppercase;
+}
+
+aside {
+    float: left;
+    padding-left: 3.6%;
+    width: 65%;
+    font-size: 36px;
+}
+
 h1 {
     font-size: 56px;
     padding-left: 1.5%;
-    text-transform: uppercase;
 }
