@@ -36,7 +36,7 @@ submit[0].addEventListener('click', function() {
 
   function createMessage() {
     let message = `
-    <strong>You rolled ${roll}</strong>
+    You rolled: <strong>${roll}</strong>
     <br> 
     Please click the button to roll again.
     `;

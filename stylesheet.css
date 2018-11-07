@@ -37,7 +37,6 @@ section {
     float: left;
     width: 30%;
     font-size: 56px;
-    border-right: 2px dashed tomato;
     padding-left: 1.2%;
     text-transform: uppercase;
 }
