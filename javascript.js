@@ -1,12 +1,16 @@
-// Roll a random number between 1 and 6
+// Append dice to the container
 let diceContainer = document.getElementById('dice');
 let displayDice = document.createElement('div');
-let submit = document.getElementsByTagName('input');
 diceContainer.appendChild(displayDice);
 
+// Create a container for the message
 var msgHolder = document.getElementsByTagName('aside');
 var displayMsg = document.createElement('p');
 msgHolder[0].appendChild(displayMsg);
+var printMessage;
+
+// Get the button and add click event
+let submit = document.getElementsByTagName('input');
 
 submit[0].addEventListener('click', function() {
   const roll = Math.ceil(Math.random() * 6);
@@ -39,6 +43,7 @@ submit[0].addEventListener('click', function() {
     displayMsg.innerHTML = message;
   };
 
-  var printMessage = setTimeout(createMessage, 500);
+  // Print the message after 0.5 seconds
+  printMessage = setTimeout(createMessage, 500);
 
 });
